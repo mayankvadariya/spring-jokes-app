@@ -13,7 +13,7 @@ private final ChuckNorrisQuotes chuckNorrisQuotes;
 //Constructor based injected but we have to provide the ChuckNorrisQuotes in the context and hence we are using the java based
     //Configuration  and Bean to get it.
     public JokeServiceImpl(ChuckNorrisQuotes abc) {
-        System.out.println("In the JokeServiceImpl constuctor");
+        System.out.println("In the JokeServiceImpl constructor");
         this.chuckNorrisQuotes = abc;
     }
 
